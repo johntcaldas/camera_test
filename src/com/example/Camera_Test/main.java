@@ -8,6 +8,8 @@ import android.media.CamcorderProfile;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.ParcelFileDescriptor;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -15,6 +17,8 @@ import android.widget.TextView;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -40,6 +44,10 @@ public class main extends Activity
         setContentView(R.layout.main);
 
         mTextView = (TextView) findViewById(R.id.videoMessageTextView);
+
+        // Allow network on main thread. Remove me when done debugging.
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
 
         // Begin camera hacking code.
         Context context = (Context) this;
@@ -96,15 +104,6 @@ public class main extends Activity
             //}
         }
 
-
-
-
-
-
-
-
-
-
     }
 
 
@@ -149,7 +148,18 @@ public class main extends Activity
         mMediaRecorder.setProfile(CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH));
 
         // Step 4: Set output file
-        mMediaRecorder.setOutputFile(getOutputMediaFile(MEDIA_TYPE_VIDEO).toString());
+        //mMediaRecorder.setOutputFile(getOutputMediaFile(MEDIA_TYPE_VIDEO).toString());
+        Socket socket;
+        try {
+            socket = new Socket("192.168.1.148",50007);
+            ParcelFileDescriptor pfd = ParcelFileDescriptor.fromSocket(socket);
+            mMediaRecorder.setOutputFile(pfd.getFileDescriptor());
+        } catch (UnknownHostException e) {
+            Log.d(TAG, "Caught UnknownHostException: " + e.getMessage());
+        } catch (IOException eio) {
+            Log.d(TAG, "Caught IOException: " + eio.getMessage());
+        }
+
 
         // Step 5: Set the preview output
         mMediaRecorder.setPreviewDisplay(mPreview.getHolder().getSurface());
