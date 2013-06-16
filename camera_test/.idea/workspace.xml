@@ -28,38 +28,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542b6ce6-7172-488a-9b16-7ab12df0593c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ant.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../camera_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../local.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proguard-project.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/drawable-ldpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/com/example/Camera_Test/CameraPreview.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/com/example/Camera_Test/main.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="camera_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369445347353" ignored="false" />
     <file path="/main.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371319090662" ignored="false" />
     <file path="/main.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370927902890" ignored="false" />
-    <file path="/CameraPreview.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370658253395" ignored="false" />
+    <file path="/CameraPreview.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371396773056" ignored="false" />
     <file path="/fragment.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371320154491" ignored="false" />
     <file path="/a.dummy" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369694786491" ignored="false" />
-    <file path="/Dummy.txt" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371390440187" ignored="false" />
+    <file path="/Dummy.txt" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371399690040" ignored="false" />
     <file path="$PROJECT_DIR$/../yapastream/AndroidManifest.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369586393079" ignored="false" />
     <file path="$PROJECT_DIR$/../yapastream/project.properties" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369586393079" ignored="false" />
     <file path="$PROJECT_DIR$/../yapastream/res/values/strings.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369586393079" ignored="false" />
@@ -127,7 +106,7 @@
     <file path="$PROJECT_DIR$/../aRRTGlass/src/teaonly/droideye/MainActivity.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370185635220" ignored="false" />
     <file path="$PROJECT_DIR$/../aRRTGlass/src/teaonly/droideye/CameraView.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370182312080" ignored="false" />
     <file path="$PROJECT_DIR$/../aRRTGlass/assets/blah.js" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370185601861" ignored="false" />
-    <file path="/MainActivity.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371388685695" ignored="false" />
+    <file path="/MainActivity.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371399828699" ignored="false" />
     <file path="$PROJECT_DIR$/../aRRTGlass/res/layout/main.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370185588895" ignored="false" />
     <file path="/*.regexp" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370654863288" ignored="false" />
     <file path="/a.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370656849335" ignored="false" />
@@ -155,6 +134,13 @@
     <file path="$PROJECT_DIR$/../mjpeg_test/src/com/farlo/mjpeg_test/MJpegHttpStreamer.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371387404953" ignored="false" />
     <file path="$PROJECT_DIR$/../mjpeg_test/src/com/farlo/mjpeg_test/MemoryOutputStream.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371320930657" ignored="false" />
     <file path="/CameraStreamer.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371389869056" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mjpeg_test/src/com/farlo/mjpeg_test/MainActivity.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371399830136" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mjpeg_test/src/com/farlo/mjpeg_test/CameraPreview.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371399656029" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mjpeg_test/src/com/farlo/mjpeg_test/PreviewStreamer.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371399154458" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mjpeg_test/src/com/farlo/mjpeg_test/CameraStreamer.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371391665015" ignored="false" />
+    <file path="/PreviewStreamer.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371396248236" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mjpeg_test/src/com/farlo/mjpeg_test/MemoryOutputStream.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371399279371" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mjpeg_test/src/com/farlo/mjpeg_test/MJpegHttpStreamer.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371399656029" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -510,7 +496,7 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="930" height="1165" extended-state="4" />
+    <frame x="0" y="0" width="930" height="1165" extended-state="5" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
