@@ -12,6 +12,8 @@ import android.os.ParcelFileDescriptor;
 import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
@@ -30,6 +32,8 @@ public class main extends Activity
 
     public final static String TAG = "camera_test_main";
 
+    public static final int WIDTH = 720;
+    public static final int HEIGHT = 480;
 
     private Camera mCamera;
     private MediaRecorder mMediaRecorder;
@@ -41,6 +45,12 @@ public class main extends Activity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+
+        // Get rid of the title, and keep the screen on all the time.
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        Window win = getWindow();
+        win.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+
         setContentView(R.layout.main);
 
         mTextView = (TextView) findViewById(R.id.videoMessageTextView);
@@ -63,7 +73,10 @@ public class main extends Activity
         }
 
         Camera.Parameters mCameraParams = mCamera.getParameters();
-
+        mCameraParams.setFocusMode(Camera.Parameters.FOCUS_MODE_INFINITY);
+        mCameraParams.set("cam_mode", 1);
+        mCameraParams.setPreviewSize(WIDTH, HEIGHT);
+        mCamera.setParameters(mCameraParams);
 
         // Create our Preview view and set it as the content of our activity.
         Log.d(TAG, "Initializing preview ...");
@@ -144,8 +157,19 @@ public class main extends Activity
         mMediaRecorder.setAudioSource(MediaRecorder.AudioSource.CAMCORDER);
         mMediaRecorder.setVideoSource(MediaRecorder.VideoSource.CAMERA);
 
+        //mMediaRecorder.setVideoSize(720, 480);
+        //mMediaRecorder.setVideoFrameRate(16); //might be auto-determined due to lighting
+        //mMediaRecorder.setVideoEncodingBitRate(3000000);
+        //mMediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.H264);// MPEG_4_SP
+        //mMediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
+
         // Step 3: Set a CamcorderProfile (requires API Level 8 or higher)
-        mMediaRecorder.setProfile(CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH));
+        CamcorderProfile camcorderProfile = CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH);
+        camcorderProfile.fileFormat = MediaRecorder.OutputFormat.MPEG_4;
+        camcorderProfile.videoCodec = MediaRecorder.VideoEncoder.H263;
+        camcorderProfile.videoFrameWidth = WIDTH;
+        camcorderProfile.videoFrameHeight = HEIGHT;
+        mMediaRecorder.setProfile(camcorderProfile);
 
         // Step 4: Set output file
         // TO FILE:
@@ -169,7 +193,7 @@ public class main extends Activity
         // TCP:
         Socket socket;
         try {
-            socket = new Socket("192.168.1.148",50007);
+            socket = new Socket("192.168.1.124",50007);
             ParcelFileDescriptor pfd = ParcelFileDescriptor.fromSocket(socket);
             mMediaRecorder.setOutputFile(pfd.getFileDescriptor());
         } catch (UnknownHostException e) {
