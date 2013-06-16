@@ -28,20 +28,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542b6ce6-7172-488a-9b16-7ab12df0593c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/Camera_Test/main.java" afterPath="$PROJECT_DIR$/src/com/example/Camera_Test/main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ant.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../camera_test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../local.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/drawable-ldpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/com/example/Camera_Test/CameraPreview.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/com/example/Camera_Test/main.java" afterPath="" />
     </list>
     <ignored path="camera_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369445347353" ignored="false" />
-    <file path="/main.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370653529118" ignored="false" />
-    <file path="/main.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370792987459" ignored="false" />
+    <file path="/main.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371319090662" ignored="false" />
+    <file path="/main.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370927902890" ignored="false" />
     <file path="/CameraPreview.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370658253395" ignored="false" />
-    <file path="/fragment.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369694947306" ignored="false" />
+    <file path="/fragment.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371320154491" ignored="false" />
     <file path="/a.dummy" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369694786491" ignored="false" />
-    <file path="/Dummy.txt" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370707547170" ignored="false" />
+    <file path="/Dummy.txt" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371390440187" ignored="false" />
     <file path="$PROJECT_DIR$/../yapastream/AndroidManifest.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369586393079" ignored="false" />
     <file path="$PROJECT_DIR$/../yapastream/project.properties" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369586393079" ignored="false" />
     <file path="$PROJECT_DIR$/../yapastream/res/values/strings.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1369586393079" ignored="false" />
@@ -109,17 +127,34 @@
     <file path="$PROJECT_DIR$/../aRRTGlass/src/teaonly/droideye/MainActivity.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370185635220" ignored="false" />
     <file path="$PROJECT_DIR$/../aRRTGlass/src/teaonly/droideye/CameraView.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370182312080" ignored="false" />
     <file path="$PROJECT_DIR$/../aRRTGlass/assets/blah.js" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370185601861" ignored="false" />
-    <file path="/MainActivity.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370185627534" ignored="false" />
+    <file path="/MainActivity.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371388685695" ignored="false" />
     <file path="$PROJECT_DIR$/../aRRTGlass/res/layout/main.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370185588895" ignored="false" />
     <file path="/*.regexp" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370654863288" ignored="false" />
     <file path="/a.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370656849335" ignored="false" />
     <file path="/sample.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370656860442" ignored="false" />
     <file path="$PROJECT_DIR$/../command_center/command_center.py" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370707547564" ignored="false" />
-    <file path="$PROJECT_DIR$/../command_center/socket_test.py" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370792616687" ignored="false" />
-    <file path="/socket_test.py" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370792555796" ignored="false" />
+    <file path="$PROJECT_DIR$/../command_center/socket_test.py" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370925434422" ignored="false" />
+    <file path="/socket_test.py" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370914112736" ignored="false" />
     <file path="$PROJECT_DIR$/../ipcamera-for-android-read-only/droidipcam/res/values/strings.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370725449239" ignored="false" />
     <file path="$PROJECT_DIR$/../ipcamera-for-android-read-only/droidipcam/AndroidManifest.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370726094083" ignored="false" />
     <file path="$PROJECT_DIR$/../ipcamera-for-android-read-only/droidipcam/src/teaonly/projects/droidipcam/CameraView.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370726502505" ignored="false" />
+    <file path="$PROJECT_DIR$/../sipdroid-read-only/res/values/strings.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370925434422" ignored="false" />
+    <file path="$PROJECT_DIR$/../sipdroid-read-only/AndroidManifest.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370925434423" ignored="false" />
+    <file path="$PROJECT_DIR$/../peepers/project.properties" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370928856104" ignored="false" />
+    <file path="$PROJECT_DIR$/../peepers/AndroidManifest.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370928856104" ignored="false" />
+    <file path="$PROJECT_DIR$/../peepers/res/values/strings.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1370928856104" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371316881338" ignored="false" />
+    <file path="$PROJECT_DIR$/../mjpeg_test/AndroidManifest.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371388897672" ignored="false" />
+    <file path="$PROJECT_DIR$/../mjpeg_test/project.properties" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371317463130" ignored="false" />
+    <file path="$PROJECT_DIR$/../mjpeg_test/res/values/strings.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371317463130" ignored="false" />
+    <file path="$PROJECT_DIR$/../mjpeg_test/src/com/farlo/mjpeg_test/MainActivity.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371389917848" ignored="false" />
+    <file path="$PROJECT_DIR$/../mjpeg_test/res/layout/main.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371319090662" ignored="false" />
+    <file path="$PROJECT_DIR$/../mjpeg_test/src/com/farlo/mjpeg_test/CameraPreview.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371318193426" ignored="false" />
+    <file path="/a.xml" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371319677961" ignored="false" />
+    <file path="$PROJECT_DIR$/../mjpeg_test/src/com/farlo/mjpeg_test/CameraStreamer.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371390194151" ignored="false" />
+    <file path="$PROJECT_DIR$/../mjpeg_test/src/com/farlo/mjpeg_test/MJpegHttpStreamer.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371387404953" ignored="false" />
+    <file path="$PROJECT_DIR$/../mjpeg_test/src/com/farlo/mjpeg_test/MemoryOutputStream.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371320930657" ignored="false" />
+    <file path="/CameraStreamer.java" changelist="542b6ce6-7172-488a-9b16-7ab12df0593c" time="1371389869056" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +169,53 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Camera_Test/main.java" line="188" class="com.example.Camera_Test.main" package="com.example.Camera_Test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Camera_Test/main.java" line="192" class="com.example.Camera_Test.main" package="com.example.Camera_Test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Camera_Test/main.java" line="82" class="com.example.Camera_Test.main" package="com.example.Camera_Test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -171,53 +253,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Camera_Test/main.java" line="170" class="com.example.Camera_Test.main" package="com.example.Camera_Test">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Camera_Test/main.java" line="174" class="com.example.Camera_Test.main" package="com.example.Camera_Test">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/Camera_Test/main.java" line="82" class="com.example.Camera_Test.main" package="com.example.Camera_Test">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -230,7 +265,7 @@
       <file leaf-file-name="main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/Camera_Test/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="66" selection-start="5210" selection-end="5210" vertical-scroll-proportion="0.7606973">
+            <state line="250" column="8" selection-start="8772" selection-end="8914" vertical-scroll-proportion="1.1716868">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -238,40 +273,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurfaceView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Applications/android-sdk-linux/sources/android-15/android/view/SurfaceView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="0" selection-start="7375" selection-end="7375" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CameraPreview.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/Camera_Test/CameraPreview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="27" selection-start="1590" selection-end="1591" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="66" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+            <state line="4" column="24" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -285,7 +290,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -296,15 +301,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/Camera_Test/CameraPreview.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/Camera_Test/main.java" />
+        <option value="$PROJECT_DIR$/src/com/example/Camera_Test/CameraPreview.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="504" />
-    <option name="width" value="1416" />
+    <option name="width" value="930" />
     <option name="height" value="1165" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -333,6 +337,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,8 +349,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,7 +358,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -368,6 +372,14 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
   </component>
   <component name="RunManager" selected="Android Application.camera_test">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -498,20 +510,20 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="504" y="0" width="1416" height="1165" extended-state="4" />
+    <frame x="0" y="0" width="930" height="1165" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35525024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35357493" sideWeight="0.49964002" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963504" sideWeight="0.67134833" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15694745" sideWeight="0.5191364" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2414175" sideWeight="0.5554465" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15694745" sideWeight="0.12561335" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31010795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2414175" sideWeight="0.13444553" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35525024" sideWeight="0.50035995" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31010795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.67134833" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -586,21 +598,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/Camera_Test/CameraPreview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="97" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="136" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -627,13 +632,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="136" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -653,41 +658,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Camera_Test/CameraPreview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="27" selection-start="1590" selection-end="1591" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Applications/android-sdk-linux/sources/android-15/android/view/SurfaceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="0" selection-start="7375" selection-end="7375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
@@ -696,16 +677,47 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Applications/android-sdk-linux/sources/android-15/android/media/MediaRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="410" column="33" selection-start="16520" selection-end="16520" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Applications/android-sdk-linux/sources/android-15/android/view/SurfaceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="0" selection-start="7375" selection-end="7375" vertical-scroll-proportion="0.01510574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="66" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.63004845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="619" selection-end="824" vertical-scroll-proportion="0.41237113">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Camera_Test/CameraPreview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Camera_Test/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="66" selection-start="5210" selection-end="5210" vertical-scroll-proportion="0.7606973">
+        <state line="250" column="8" selection-start="8772" selection-end="8914" vertical-scroll-proportion="1.1716868">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

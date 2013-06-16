@@ -148,7 +148,25 @@ public class main extends Activity
         mMediaRecorder.setProfile(CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH));
 
         // Step 4: Set output file
+        // TO FILE:
         //mMediaRecorder.setOutputFile(getOutputMediaFile(MEDIA_TYPE_VIDEO).toString());
+
+        // UDP:
+        /*
+        DatagramSocket socket;
+        try {
+            InetAddress destination = InetAddress.getByName("192.168.1.148");
+            socket = new DatagramSocket();
+            socket.connect(destination, 50007);
+            ParcelFileDescriptor pfd = ParcelFileDescriptor.fromDatagramSocket(socket);
+            mMediaRecorder.setOutputFile(pfd.getFileDescriptor());
+        } catch (UnknownHostException e) {
+            Log.d(TAG, "Caught UnknownHostException: " + e.getMessage());
+        } catch (IOException eio) {
+            Log.d(TAG, "Caught IOException: " + eio.getMessage());
+        }*/
+
+        // TCP:
         Socket socket;
         try {
             socket = new Socket("192.168.1.148",50007);
