@@ -157,12 +157,6 @@ public class main extends Activity
         mMediaRecorder.setAudioSource(MediaRecorder.AudioSource.CAMCORDER);
         mMediaRecorder.setVideoSource(MediaRecorder.VideoSource.CAMERA);
 
-        //mMediaRecorder.setVideoSize(720, 480);
-        //mMediaRecorder.setVideoFrameRate(16); //might be auto-determined due to lighting
-        //mMediaRecorder.setVideoEncodingBitRate(3000000);
-        //mMediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.H264);// MPEG_4_SP
-        //mMediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
-
         // Step 3: Set a CamcorderProfile (requires API Level 8 or higher)
         CamcorderProfile camcorderProfile = CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH);
         camcorderProfile.fileFormat = MediaRecorder.OutputFormat.MPEG_4;
@@ -191,6 +185,7 @@ public class main extends Activity
         }*/
 
         // TCP:
+
         Socket socket;
         try {
             socket = new Socket("192.168.1.124",50007);
@@ -227,7 +222,7 @@ public class main extends Activity
         // using Environment.getExternalStorageState() before doing this.
 
         File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(
-                Environment.DIRECTORY_PICTURES), "test.mp4");
+                Environment.DIRECTORY_PICTURES), "h263.mp4");
         // This location works best if you want the created images to be shared
         // between applications and persist after your app has been uninstalled.
 
