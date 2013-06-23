@@ -8,7 +8,6 @@ import android.media.CamcorderProfile;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.os.Environment;
-import android.os.ParcelFileDescriptor;
 import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
@@ -19,8 +18,6 @@ import android.widget.TextView;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.Socket;
-import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -159,15 +156,19 @@ public class main extends Activity
 
         // Step 3: Set a CamcorderProfile (requires API Level 8 or higher)
         CamcorderProfile camcorderProfile = CamcorderProfile.get(CamcorderProfile.QUALITY_HIGH);
+
+        /*
         camcorderProfile.fileFormat = MediaRecorder.OutputFormat.MPEG_4;
         camcorderProfile.videoCodec = MediaRecorder.VideoEncoder.H263;
         camcorderProfile.videoFrameWidth = WIDTH;
         camcorderProfile.videoFrameHeight = HEIGHT;
+        */
+
         mMediaRecorder.setProfile(camcorderProfile);
 
         // Step 4: Set output file
         // TO FILE:
-        //mMediaRecorder.setOutputFile(getOutputMediaFile(MEDIA_TYPE_VIDEO).toString());
+        mMediaRecorder.setOutputFile(getOutputMediaFile(MEDIA_TYPE_VIDEO).toString());
 
         // UDP:
         /*
@@ -185,10 +186,10 @@ public class main extends Activity
         }*/
 
         // TCP:
-
+/*
         Socket socket;
         try {
-            socket = new Socket("192.168.1.124",50007);
+            socket = new Socket("10.0.100.6",50007);
             ParcelFileDescriptor pfd = ParcelFileDescriptor.fromSocket(socket);
             mMediaRecorder.setOutputFile(pfd.getFileDescriptor());
         } catch (UnknownHostException e) {
@@ -196,6 +197,7 @@ public class main extends Activity
         } catch (IOException eio) {
             Log.d(TAG, "Caught IOException: " + eio.getMessage());
         }
+*/
 
 
         // Step 5: Set the preview output
