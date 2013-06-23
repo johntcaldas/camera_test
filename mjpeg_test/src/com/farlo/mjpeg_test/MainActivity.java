@@ -2,11 +2,13 @@ package com.farlo.mjpeg_test;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
@@ -23,6 +25,7 @@ public class MainActivity extends Activity {
     private Camera mCamera;
     private CameraPreview mPreview;
     private PreviewStreamer mPreviewStreamer;
+    private Boolean mStreaming = false;
 
     public void onCreate(Bundle savedInstanceState) {
 
@@ -50,21 +53,24 @@ public class MainActivity extends Activity {
         mCamera = getCameraInstance();
 
         if(mCamera == null) {
-            Log.d(TAG, "Camera is null!");
+            Log.d(TAG, "Camera is null! No camera or already streaming ...");
+            mStreaming = true;
         }
 
-        // Get the camera parameters.
-        //Camera.Parameters mCameraParams = mCamera.getParameters();
+        if(!mStreaming) {
+            // Get the camera parameters.
+            //Camera.Parameters mCameraParams = mCamera.getParameters();
 
-        // Set up streamer.
-        mPreviewStreamer = new PreviewStreamer(STREAM_PORT, JPEG_QUALITY);
+            // Set up streamer.
+            mPreviewStreamer = new PreviewStreamer(STREAM_PORT, JPEG_QUALITY);
 
 
-        // Create our Preview view and set it as the content of our activity.
-        Log.d(TAG, "Initializing preview ...");
-        mPreview = new CameraPreview(this, mCamera, mPreviewStreamer);
-        FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
-        preview.addView(mPreview);
+            // Create our Preview view and set it as the content of our activity.
+            Log.d(TAG, "Initializing preview ...");
+            mPreview = new CameraPreview(this, mCamera, mPreviewStreamer);
+            FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
+            preview.addView(mPreview);
+        }
     }
 
     @Override
@@ -75,20 +81,52 @@ public class MainActivity extends Activity {
         super.onResume();
 
         // Start Streaming
-        mPreviewStreamer.start();
+        if(!mStreaming) {
+            mPreviewStreamer.start();
+            mStreaming = true;
+        }
     }
 
     @Override
     protected void onPause() {
         super.onPause();
 
-        // Stop Streaming
+        // Don't want to stop streaming here as we switch screens.
 
+        // Release Camera
+        if (mCamera != null) {
+            //mCamera.release();        // release the camera for other applications
+            //mCamera = null;
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
         // Release Camera
         if (mCamera != null) {
             mCamera.release();        // release the camera for other applications
             mCamera = null;
         }
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        Log.d(TAG, "onKeyDown keyCode=" + keyCode + " event = " + event);
+
+        if (keyCode == 4) {
+            // 4 = back button on device, or vertical swipe on glass.
+            Log.d(TAG, "Got a vertical swipe");
+            Intent myIntent = new Intent(MainActivity.this, VitalsActivity.class);
+            myIntent.putExtra("key", ""); //Optional parameters
+            MainActivity.this.startActivity(myIntent);
+        } else if (keyCode == 61 || keyCode == 82) {
+            // 61 = tab button, or horizontal swipe on glass.
+            // 82 = menu key
+            Log.d(TAG, "Got a horizontal swipe");
+            onPause();
+            return true;
+        }
+        return (false);
     }
 
     /** Check if this device has a camera */

@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">mjpeg_test</string>
+    <string name="app_name">aRRTGlass</string>
+
+    <string name="action_exit">Exit</string>
+
+    <string name="msg_access_local">Open at local: </string>
+    <string name="msg_access_internet">Open at internet:  </string>
+    <string name="msg_access_query">Detecting internet ... </string>
+    <string name="msg_access_query_error">Also you can setup your router to access from internet</string>
+    <string name="msg_error">Error: Please enable wifi</string>
+    <string name="heartrate">Heart Rate:</string><string name="BPLabel">BP:</string>
+    <string name="O2Label">O2</string>
+    <string name="TempLabel">Temp:</string>
+    <string name="RRLabel">RR:</string>
+    <string name="HRLabel">HR:</string>
+    <string name="hrvalue">62</string>
+    <string name="bpvalue">150/95</string>
+    <string name="O2value">86</string>
+    <string name="tempvalue">98.1</string>
+    <string name="rrvalue">33</string>
 </resources>
