@@ -28,7 +28,6 @@ public class MainActivity extends Activity {
     private Boolean mStreaming = false;
 
     public void onCreate(Bundle savedInstanceState) {
-
         Log.d(TAG, "onCreate ...");
 
         super.onCreate(savedInstanceState);
@@ -89,6 +88,8 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onPause() {
+        Log.d(TAG, "onPause ...");
+
         super.onPause();
 
         // Don't want to stop streaming here as we switch screens.
@@ -101,9 +102,30 @@ public class MainActivity extends Activity {
     }
 
     @Override
+    protected void onStop() {
+        Log.d(TAG, "onStop ...");
+
+        super.onStop();  // Always call the superclass method first
+    }
+
+    @Override
+    protected void onStart() {
+        Log.d(TAG, "onStart ...");
+
+        super.onStart();  // Always call the superclass method first
+    }
+
+
+    @Override
     protected void onDestroy() {
+        Log.d(TAG, "onDestroy ...");
+
+        // Stop streaming
+        mPreviewStreamer.stop();
+
         // Release Camera
         if (mCamera != null) {
+            mCamera.stopPreview();
             mCamera.release();        // release the camera for other applications
             mCamera = null;
         }

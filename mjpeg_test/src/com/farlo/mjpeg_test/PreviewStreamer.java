@@ -6,6 +6,9 @@ import android.graphics.YuvImage;
 import android.hardware.Camera;
 import android.os.*;
 import android.os.Process;
+import android.util.Log;
+
+import java.io.IOException;
 
 public class PreviewStreamer {
 
@@ -48,6 +51,7 @@ public class PreviewStreamer {
     }
 
     public void start() {
+        Log.d(TAG, "start() ...");
 
         if(!initialized) {
             waitingToStart = true;
@@ -63,6 +67,24 @@ public class PreviewStreamer {
         mJpegOutputStream = new MemoryOutputStream(mBufferSize);
         mMJpegHttpStreamer = new MJpegHttpStreamer(mPort, mBufferSize);
         mMJpegHttpStreamer.start();
+    }
+
+    public void stop() {
+        Log.d(TAG, "stop() ...");
+
+        try {
+        mMJpegHttpStreamer.stop();
+        }
+        catch (Exception e) {
+            Log.e(TAG, "Could not stop mMJpegHttpStreamer. Exception=" + e.getMessage());
+        }
+
+        try {
+            mJpegOutputStream.close();
+        }
+        catch (IOException e) {
+            Log.e(TAG, "Could not close JpenOutputStream. Exception=" + e.getMessage());
+        }
     }
 
     private final Camera.PreviewCallback PreviewCallback = new Camera.PreviewCallback()
